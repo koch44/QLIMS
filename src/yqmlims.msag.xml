@@ -1,0 +1,1357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YQMLIMS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>QM: Nachrichtenklasse LIMS</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>000</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Es liegen keine Verkaufsbelege zur Nachverbuchung vor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Protokoll erfolgreich gespeichert. Ansicht mit Transaktion SLG1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Auftrag &amp;1 wird momentan bearbeitet. Fakturasperre nicht entfernt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fakturasperre für Auftrag &amp;1 Position &amp;2 entfernt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Es wurden keine Prüfmethoden zur Migration gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Prüfmethode &amp;1/&amp;2/&amp;3 wird kopiert nach Werk &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Fehler beim Lesen des Langtextes zu &amp;1/&amp;2/&amp;3 in Sprache &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Langtext zu &amp;1/&amp;2/&amp;3 in Sprache &amp;4 angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Aufruf im Testmodus, Daten werden nicht gesichert!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Prüfmethode &amp;1/&amp;2/&amp;3 existiert bereits im Werk &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Prüfmethode &amp;1/&amp;2/&amp;3 existiert bereits im Werk &amp;4 und wird überschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Es wurden keine Prüfmerkmale zur Migration gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Prüfmerkmal &amp;1/&amp;2/&amp;3 existiert bereits im Werk &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Prüfmerkmal &amp;1/&amp;2/&amp;3 existiert bereits im Werk &amp;4 und wird überschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Prüfmerkmal &amp;1/&amp;2/&amp;3 wird kopiert nach Werk &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Prüfmerkmal &amp;1/&amp;2/&amp;3 wird Prüfmethode &amp;4 zugeordnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Technischer Platz &amp;1 dem Werk &amp;2 zugeordnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Es wurden keine Technischen Plätze zur Migration gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Die Technischen Plätze werden den folgenden Organisationsdaten zugeordnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp;1: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Fehler beim Anlagen von Physischen Proben mit Probenahmeverfahren &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Zugehöriger Kundenauftrag &amp;1 ist in Bearbeitung. Treffen VE nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Prüflos &amp;1 ist in Bearbeitung. Treffen VE nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Keine Vorwerte für TP &amp;1 im Werk &amp;2 zu Merkmal &amp;3 gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Vorwerte für TP &amp;1 im Werk &amp;2 zu Merkmal &amp;3 gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Plausigrenzen für TP &amp;1 im Werk &amp;2 zu Merkmal &amp;3 werden neu angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Bitte Anzahl der Prüflose einschränken</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Tabelle &amp;1 konnte nicht aktualisiert werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Abbruch beim Update der Tabelle &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Eingabeverarbeitung: Rundung nach Signifikanztyp fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Eingabeverarbeitung: Konvertierung in Zahl fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Fehler beim Freigeben des Serviceauftrags &amp;1. -&gt; manuell freigeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Datei &amp;1 konnte nicht geöffnet werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Überprüfen Sie die Cursorposition</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Prüfmethode wurde nicht verändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Fakturasperre in Auftragsposition &amp;1 &amp;2 konnte nicht gesetzt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Zum Merkmal &amp;1 &amp;2 &amp;3 wurde keine Prüfmethode gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Ungültiger Technischer Platz. Bitte Eingabe korrigieren!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Achtung! Technischer Platz inaktiv. Bitte ggf. Position löschen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Kundenauftrag &amp;1 ist gerade gesperrt durch &amp;2. Änderung nicht möglich.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Fehler beim automatischen Versand des Prüfbericht zu Prüflos &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Einstellungen zur automatischen Erzeugung des Prüfberichts fehlen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Anwenderstatus &amp;1 existiert nicht. Systemadministrator informieren</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Status &amp;1 existiert nicht für Prüflos &amp;2. Prüfbericht manuell versenden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Für Prüflos &amp;1 wurde noch kein Verwendungsentscheid getroffen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Status &apos;VBPE&apos; für Prüflos &amp;1 konnte nicht gesetzt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Einstellungen zur aut. Erzeugung des Prüfberichts fehlen (Tabelle &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Verwendungsentscheid zum Prüflos &amp;1 konnte nicht zurückgenommen werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Transaktionscode &amp;1 nicht in T370A gepflegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Bitte Auswertungszeitraum angeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Vorlage für Gutachten wurde nicht ausgewählt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Gutachten ist nicht erforderlich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Interner Fehler bei Gutachtenerstellung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Status &apos;BEGU&apos; konnte nicht gesetzt werden (Los &amp;1). Bitte manuell setzen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Gutachtenerstellung wurde angestossen. Daten an Word übergeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Beurteilung erstellt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>Erstellung der Beurteilung wurde durch den Benutzer abgebrochen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>Status &apos;KAVE&apos; konnte nicht gesetzt werden (Los &amp;1). Bitte manuell setzen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>Status &apos;MVID&apos; konnte nicht zurückgenommen werden (Los &amp;1). Manuell entf.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>Auftrag &amp;1 gesperrt durch &amp;2 &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>Übertragung der Prüfkosten erfolgt manuell mit Transaktion ZCOST</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>Übertragung der Prüfkosten erfolgt manuell mit Transaktion YQM_COST</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>Die Customizingtabelle yqm_vnltcu_t ist für das Werk &amp;1 nicht gefüllt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>Bitte nur eine Zeile markieren</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>Status &amp;1 konnte nicht gesetzt werden (Los &amp;2). Bitte manuell setzen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Anwenderstatus &amp;2 für Prüflos &amp;1 erfolgreich gesetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>Fehler beim Setzen des Anwenderstatus &amp;2 für Prüflos &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>Anwenderstatus &amp;2 für Prüflos &amp;1 nicht gesetzt da Los gesperrt durch &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>VE für Prüflos &amp;1 getroffen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>Fehler beim Treffen des VE für Prüflos &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>Fehler beim Treffen des VE für Prüflos &amp;1 (Los gesperrt)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>306</MSGNR>
+     <TEXT>Anwenderstatus &amp;1 nicht definiert im Statusschema &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>307</MSGNR>
+     <TEXT>Vor dem Treffen des VE muss der Prüfbericht angenommen werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>308</MSGNR>
+     <TEXT>Verwendungsentscheid für Prüflos &amp;1 bereits getroffen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>309</MSGNR>
+     <TEXT>Verwendungsentscheid zum Prüflos &amp;1 wurde noch nicht getroffen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>Keine Berechtigung zum Treffen des Verwendungsentscheids für Prüflos &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>404</MSGNR>
+     <TEXT>&amp;1: Eingabewert &amp;2 liegt unterhalb der Plausibilitätsgrenze von &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>405</MSGNR>
+     <TEXT>&amp;1: Eingabewert &amp;2 liegt oberhalb der Plausibilitätsgrenze von &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>406</MSGNR>
+     <TEXT>Der Eingabewert liegt unterhalb der Bestimmungssgrenze.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>407</MSGNR>
+     <TEXT>Der Eingabewert liegt oberhalb der Bestimmungsgrenze.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>Plausibilitätstabelle ist gesperrt. Bitte VE erneut treffen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>600</MSGNR>
+     <TEXT>Es konnte kein Smartform ermittelt werden. Zu Formular &amp;1 . Bitte prüfen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>601</MSGNR>
+     <TEXT>Zum Dienstlmat. &amp;1 ist kein Druckinfosatz gepflegt-&gt;Button Druckoptionen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>602</MSGNR>
+     <TEXT>Formatierungsfehler</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>603</MSGNR>
+     <TEXT>Interner Fehler - Form SMARTFORM DRUCKEN</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>604</MSGNR>
+     <TEXT>Sendefehler Form SMARTFORM DRUCKEN</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>605</MSGNR>
+     <TEXT>Formatierungsfehler Form SMARTFORM DRUCKEN</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>606</MSGNR>
+     <TEXT>Andere Fehler bei Abarbeitung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>607</MSGNR>
+     <TEXT>Zum technischen Platz &amp; ist keine automatische Verarbeitung vorgesehen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>608</MSGNR>
+     <TEXT>Zum Technischen Platz  &amp; kein Kunde gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>609</MSGNR>
+     <TEXT>Zum technischen Platz &amp; wurde kein Kundenauftrag gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>610</MSGNR>
+     <TEXT>Position erfolgreich angelegt zum Kundenauftrag &amp;1 (Prüflos &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>611</MSGNR>
+     <TEXT>Fehler bei der Anlage Position zum Kundenauftrag &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>612</MSGNR>
+     <TEXT>Der Probenehmer &amp; ist nicht vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>613</MSGNR>
+     <TEXT>Die Physische Probe &amp;1 wurde bereits erfasst</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>614</MSGNR>
+     <TEXT>Das eingegebene Probeneingangsdatum ist kleiner als das Probenahmedatum</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>615</MSGNR>
+     <TEXT>Bitte geben Sie eine Probenahmezeit ein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>616</MSGNR>
+     <TEXT>Die eingegebene Probe &amp;1 wurde abgesagt!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>617</MSGNR>
+     <TEXT>Das Probenahmeverfahren &amp; ist nicht vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>618</MSGNR>
+     <TEXT>Datum Probeneingang liegt zu weit in Vergangenheit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>619</MSGNR>
+     <TEXT>Datum Probenahme liegt zu weit in Vergangenheit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>620</MSGNR>
+     <TEXT>Gegenstand der Püfung mit dem Kürzel &amp;1 nicht definiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>621</MSGNR>
+     <TEXT>Bitte mindestens einen Entnahmeort zur Probenanlage auswählen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>700</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>701</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>702</MSGNR>
+     <TEXT>Bitte Cursor auf die Prüflosnummer stellen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>703</MSGNR>
+     <TEXT>Die Funktion wurde abgebrochen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>704</MSGNR>
+     <TEXT>Fehler beim Aufbau der interakt. Liste. Bitte Info an Systemadministator!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>705</MSGNR>
+     <TEXT>Prüfart &amp;1 nicht definiert. Bitte QM-Verantwortlichen informieren!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>706</MSGNR>
+     <TEXT>Prüfart &amp;1 besitzt kein Statusschema. Bitte Info an QM-Verantwortlichen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>707</MSGNR>
+     <TEXT>Status &amp;1 im Statusschema &amp;2 nicht vorhanden. Bitte Info an QM-Verantw.!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>708</MSGNR>
+     <TEXT>Der Wert des Merkmals &amp;1 (&amp;2) konnte nicht ermittelt werden (-&gt; Langtext)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>709</MSGNR>
+     <TEXT>Der Probenehmer &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>710</MSGNR>
+     <TEXT>Es konnten keine Prüflose gemäß den Auswahlkriterien selektiert werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>711</MSGNR>
+     <TEXT>Bitte alle Prüflose markieren, deren Daten gesichert werden sollen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>712</MSGNR>
+     <TEXT>Das ausgewählte Objekt ist für die Detailanzeige nicht vorgesehen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>713</MSGNR>
+     <TEXT>Der Auftrag &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>714</MSGNR>
+     <TEXT>Bitte mindestens ein Prüflos markieren, um die Funktion auszuführen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>715</MSGNR>
+     <TEXT>Prüflos(e) freigegeben und Entnahmedaten gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>716</MSGNR>
+     <TEXT>Ausgewählte Prüflose ohne Abrechnungsauftrag werden ignoriert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>717</MSGNR>
+     <TEXT>Nur Prüflose ohne Abrechnungsauftrag markiert. Keine Weiterverarbeitung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>718</MSGNR>
+     <TEXT>Zur Anzeige der Leistungsarten bitte vorher Cursor auf Prüflos stellen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>719</MSGNR>
+     <TEXT>Die Kostenstelle &amp;1 im Kostenrechnungskreis &amp;2 ist nicht gültig vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>720</MSGNR>
+     <TEXT>Es konnte kein Buchungskreis ermittelt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>721</MSGNR>
+     <TEXT>Es konnte kein Kostenrechnungskreis ermittelt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>722</MSGNR>
+     <TEXT>Die Leistungsart &amp;1 existiert nicht im Kostenrechnungskreis &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>723</MSGNR>
+     <TEXT>Das Feld Leistungsart wird gelöscht, da für Prüfmethoden nicht gestattet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>724</MSGNR>
+     <TEXT>Das Feld Parameter-Nr. wird gelöscht, da für Prüfmethoden nicht gestattet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>725</MSGNR>
+     <TEXT>Ist die Kostenstelle &amp;1 die zu entlastende Center Chemie Kostenstelle?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>726</MSGNR>
+     <TEXT>Die Funktion &quot;Übertragung der Prüfkosten&quot; wurde beendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>727</MSGNR>
+     <TEXT>Die Funktion &quot;Übertragung der Prüfkosten&quot; wurde abgebrochen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>728</MSGNR>
+     <TEXT>Die Kundennummer (Debitor) hat nicht die Form &apos;______-___&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>729</MSGNR>
+     <TEXT>Die Kundennummer (Debitor) enthält unzulässige Zeichen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>730</MSGNR>
+     <TEXT>Der Serviceauftrag &amp;1 konnte nicht technisch abgeschlossen werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>731</MSGNR>
+     <TEXT>Der Status des Prüfloses &amp;1 wurde erfolgreich geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>732</MSGNR>
+     <TEXT>Keine Leistungsverrechnung durchgeführt, da keine Kosten zum &amp;1 vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>733</MSGNR>
+     <TEXT>Keine Leistungsart gemäß der Selektion gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>734</MSGNR>
+     <TEXT>Der ausgewählte VE-Code besitzt die Bewertung &quot;Rückweisen&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>735</MSGNR>
+     <TEXT>Bitte gültigen VE-Code eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>736</MSGNR>
+     <TEXT>Die Funktion &quot;Auto. VE vorbereiten und durchführen&quot; wurde beendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>737</MSGNR>
+     <TEXT>Bitte überprüfen: Automatische Übertragung der Prüfkosten ausgeschaltet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>738</MSGNR>
+     <TEXT>Bitte überprüfen: Abschließen der Service-Aufträge ausgeschaltet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>739</MSGNR>
+     <TEXT>Bitte die Anzahl der Tage für das Sperren alter Prüflose angeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>740</MSGNR>
+     <TEXT>Zum Merkmal ist keine Regelkarte vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>741</MSGNR>
+     <TEXT>Der Wert &amp;1 verletzt die obere Eingriffsgrenze der Regelkarte</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>742</MSGNR>
+     <TEXT>Der Wert &amp;1 verletzt die untere Eingriffsgrenze der Regelkarte</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>743</MSGNR>
+     <TEXT>Der Wert &amp;1 verletzt eine Eingriffsgrenze der Regelkarte</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>744</MSGNR>
+     <TEXT>Der Vergleich Mittelwert - Eingriffsgrenzen ist fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>745</MSGNR>
+     <TEXT>Bitte überprüfen: Es wurde kein Abrechnungsauftrag angegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>746</MSGNR>
+     <TEXT>Keine Prüflose gefunden, für die ein automatischer VE möglich wäre</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>747</MSGNR>
+     <TEXT>Keine Prüflose gefunden, für die kein automatischer VE möglich ist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>748</MSGNR>
+     <TEXT>Das Feld Grafik Prüfb. wird gelöscht, da für Prüfmethode nicht gestattet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>749</MSGNR>
+     <TEXT>Für Grafik Prüfbericht sind nur die Einträge &apos;X&apos; oder &apos; &apos; gestattet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>750</MSGNR>
+     <TEXT>Bitte mindestens ein Prüflos auswählen oder Funktion abbrechen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>751</MSGNR>
+     <TEXT>Bitte für Prüflos &amp;1 alle Entnahmedaten + Untersuchungsanlass pflegen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>752</MSGNR>
+     <TEXT>Prüflos &amp;1 nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>753</MSGNR>
+     <TEXT>Prüflos &amp;2 wird von &amp;1 bearbeitet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>754</MSGNR>
+     <TEXT>Das Prüflos &amp;1 kann nicht gesperrt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>755</MSGNR>
+     <TEXT>Daten zum Prüflos &amp;1 wurden gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>756</MSGNR>
+     <TEXT>Fehler! Daten wurden nicht gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>757</MSGNR>
+     <TEXT>Bitte einen Eintrag markieren</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>758</MSGNR>
+     <TEXT>Der Eintrag wurde erfolgreich gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>759</MSGNR>
+     <TEXT>Der Eintrag konnte nicht gelöscht werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>760</MSGNR>
+     <TEXT>Der Auftraggeber (Kunde) &amp;1 existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>761</MSGNR>
+     <TEXT>Es existiert schon ein entsprechender Eintrag zum Auftraggeber &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>762</MSGNR>
+     <TEXT>Bitte überprüfen: Weder Aktiv-Kennzeichen noch Zähler gesetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>763</MSGNR>
+     <TEXT>Die Daten wurden erfolgreich gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>764</MSGNR>
+     <TEXT>Bitte ändern: Entweder Aktiv-Kennzeichen oder Zähler setzen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>765</MSGNR>
+     <TEXT>Keine Kostenrechnungsdaten für QM-Prüfkostenabwicklung vorhanden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>766</MSGNR>
+     <TEXT>Mindestens ein Prüflos konnte nicht gesperrt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>767</MSGNR>
+     <TEXT>Die Leistungsverrechnung zum Prüflos &amp;1 ist fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>768</MSGNR>
+     <TEXT>Das Fortschreiben der Daten in die Tabelle QALS ist fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>769</MSGNR>
+     <TEXT>Das Fortschreiben der Daten zum Prüflos war erfolgreich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>770</MSGNR>
+     <TEXT>Beim Reduzieren des Rabattzählers ist ein Fehler aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>771</MSGNR>
+     <TEXT>Kein Objekt zur Detailanzeige selektiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>772</MSGNR>
+     <TEXT>Achtung! Hintergrundverarbeitung ausgewählt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>773</MSGNR>
+     <TEXT>Meldungen zum Prüflos &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>774</MSGNR>
+     <TEXT>Bitte mindestens einen Eintrag markieren</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>775</MSGNR>
+     <TEXT>Als Art der Überwachung sind nur E (Eigen) oder B (Behördlich) zulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>776</MSGNR>
+     <TEXT>Der Untersuchungsanlass &amp;1 ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>777</MSGNR>
+     <TEXT>Dem Prüflos wurde die Berichtsnummer &amp;1 zugeordnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>778</MSGNR>
+     <TEXT>Bitte mindestens einen Eintrag markieren</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>779</MSGNR>
+     <TEXT>Bitte Plangruppe und Plangruppenzähler eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>780</MSGNR>
+     <TEXT>Plan nicht vorhanden (Plantyp &amp;1 / Plangruppe &amp;2 / PGZ &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>781</MSGNR>
+     <TEXT>Einfügen nicht möglich, da schon ein Eintrag zum Plan vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>782</MSGNR>
+     <TEXT>Dem neuen Eintrag zum Plan &amp;1 / &amp;2 / &amp;3 ist keine Leistungsart zugeordnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>783</MSGNR>
+     <TEXT>Es wurden keine Daten verändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>784</MSGNR>
+     <TEXT>Bitte eine Planendung vorgeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>785</MSGNR>
+     <TEXT>Einfügen nicht möglich, da schon ein Eintrag zur Planendung vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>786</MSGNR>
+     <TEXT>Dem neuen Eintrag zur Planendung &amp;1 ist keine Leistungsart zugeordnet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>787</MSGNR>
+     <TEXT>Auftrag &amp;1 momentan gesperrt. Bearbeitung wird automatisch fortgesetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>788</MSGNR>
+     <TEXT>Kostenübertragung zu Prüflos &amp;1 bereits erfolgt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>789</MSGNR>
+     <TEXT>Prüfbericht(e) gedruckt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>801</MSGNR>
+     <TEXT>Merkmalsdaten in den Prüflosen geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>802</MSGNR>
+     <TEXT>Prüfmethode &amp;1 zur Version &amp;2 im Werk &amp;3 nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>803</MSGNR>
+     <TEXT>Stammprüfmerkmal &amp;1 zur Version &amp;2 im Werk &amp;3 nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>804</MSGNR>
+     <TEXT>Technischer Arbeitsplatz-Plan &amp;1 zum Plantyp T nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>805</MSGNR>
+     <TEXT>Leistungsart &amp;1 nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>806</MSGNR>
+     <TEXT>Auswahlmenge &amp;1 zur Katalogart 1 im Werk &amp;2 nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>807</MSGNR>
+     <TEXT>Bei quantitativen Merkmalen keine Auswahlmenge möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>808</MSGNR>
+     <TEXT>Toleranzgrenzen bei qualitativen Merkmalen nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>809</MSGNR>
+     <TEXT>Steuerkennzeichen im Stammprüfmerkmal erlaubt keine Toleranzuntergrenze</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>810</MSGNR>
+     <TEXT>Steuerkennzeichen im Stammprüfmerkmal erlaubt keine Toleranzuntergrenze</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>811</MSGNR>
+     <TEXT>Version der Prüfmethode darf nicht ohne Prüfmethode eingegeben werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>812</MSGNR>
+     <TEXT>Merkmalsdaten wurden gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>813</MSGNR>
+     <TEXT>Daten-Update fehlgeschlagen &amp;1. Bitte QM-Verantwortlichen informieren!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>814</MSGNR>
+     <TEXT>Die Funktion wurde ohne Datenänderung abgebrochen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>815</MSGNR>
+     <TEXT>Es sind keine Daten zur Änderung eingegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>816</MSGNR>
+     <TEXT>Es konnten nicht alle Formelmerkmale berechnet werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>817</MSGNR>
+     <TEXT>Zum Merkmal gibt es keine Untergrenze. Bitte Wert eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>818</MSGNR>
+     <TEXT>Das Ergebnis &lt;0 ist nicht vorgesehen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>819</MSGNR>
+     <TEXT>Update von Tabelle &amp;1 fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>820</MSGNR>
+     <TEXT>&amp;1 &amp;2 nicht abgeschlossen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>821</MSGNR>
+     <TEXT>Ergebniserfassung beendet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>822</MSGNR>
+     <TEXT>Es können nur Ergebnisse von max. &amp;1 statt &amp;2 Prüflosen erfaßt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>823</MSGNR>
+     <TEXT>Prüfername &amp; existiert nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>824</MSGNR>
+     <TEXT>Bitte Auswertungszeitraum angeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>825</MSGNR>
+     <TEXT>Bitte eine gültige Spalte markieren</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>826</MSGNR>
+     <TEXT>Bitte gültigen Code eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>827</MSGNR>
+     <TEXT>Bitte gültigen Wert eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>828</MSGNR>
+     <TEXT>Prüfer mit Kürzel &amp;1 existiert schon</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>829</MSGNR>
+     <TEXT>Interner Fehler</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>YQMLIMS</ARBGB>
+     <MSGNR>830</MSGNR>
+     <TEXT>Es wurden keine zu löschenden Einträge in Tabelle &amp;1 gefunden</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

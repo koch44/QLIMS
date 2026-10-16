@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>QM: Zusatzfunktionen Prüfpunkte</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYQMLIMS_QAPPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYQMLIMS_QAPP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Y_QMLIMS_QAPP_CUST_IP_CHECK</FUNCNAME>
+     <SHORT_TEXT>Überprüfung der eingegebenen Prüfpunktidentifikation</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_QALS</PARAMETER>
+       <DBFIELD>QALS</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_QAPP</PARAMETER>
+       <DBFIELD>QAPP</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VORGLFNR</PARAMETER>
+       <DBFIELD>QAPO-VORGLFNR</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_QAPP</PARAMETER>
+       <DBSTRUCT>QAPP</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_QAPO</PARAMETER>
+       <DBSTRUCT>QAPO</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_QALS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Prüflos</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_QAPP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Prüfpunkt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VORGLFNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Laufende Knotenummer aus Auftragszähler APLZL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_QAPP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Prüfpunkt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_QAPO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der Auftragsvorgänge</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Y_QMLIMS_QAPP_CUST_IP_CREATE</FUNCNAME>
+     <SHORT_TEXT>Automatisches Erzeugen von Prüfpunkten</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_QALS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>QALS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>QAPO_TAB</PARAMETER>
+       <DBSTRUCT>QAPO</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>QAMV_TAB</PARAMETER>
+       <DBSTRUCT>QAMV</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>QASV_TAB</PARAMETER>
+       <DBSTRUCT>QASV</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_QALS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Prüflos</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>QAPO_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der Auftragsvorgänge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>QAMV_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der Prüfmerkmale</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>QASV_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der Strichprobenvorgaben</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Y_QMLIMS_QAPP_CUST_SAMPLES_CRE</FUNCNAME>
+     <SHORT_TEXT>Automatisches Erzeugen von Physischen Proben</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_QALS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>QALS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>QPPSV_TAB</PARAMETER>
+       <TYP>YQM_TT_QPPSV_TAB</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_QALS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Prüflos</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>QPPSV_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp für QPPSV</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

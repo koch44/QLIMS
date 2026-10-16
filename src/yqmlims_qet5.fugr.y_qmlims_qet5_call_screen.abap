@@ -1,0 +1,38 @@
+FUNCTION Y_QMLIMS_QET5_CALL_SCREEN.
+*"--------------------------------------------------------------------
+*"*"Lokale Schnittstelle:
+*"  IMPORTING
+*"     VALUE(I_SCREEN_MANAGER) LIKE  SY-CPROG
+*"     VALUE(I_WORKLIST) LIKE  SY-CPROG
+*"  EXPORTING
+*"     VALUE(E_OK_CODE) LIKE  T185-FCODE
+*"--------------------------------------------------------------------
+* Initialization
+  CLEAR G_FIRST_RUN_FINISH.
+  CLEAR CURSOR_FIELD.
+  CLEAR CURSOR_LINE.
+  CLEAR CURSOR_AREA.
+  G_PAGEBEGIN_CHAR = 1.
+* Table Control
+  CON_RESULTS-TOP_LINE = 1.
+  CON_RESULTS-CURRENT_LINE = 1.
+
+  CALL FUNCTION 'Y_QMLIMS_QET5_INITIALIZE'.
+
+  G_SCREEN_MANAGER = I_SCREEN_MANAGER.
+  G_WORKLIST       = I_WORKLIST.
+  G_PGMID_SUBPOR   = I_SCREEN_MANAGER.
+  G_DYNNR_SUBPOR   = '5000'.
+
+  CALL SCREEN '0100'.
+
+* Alle Sperren fürs Übersichtsbild freigeben
+  CALL FUNCTION 'DEQUEUE_ALL'.
+*    EXPORTING
+*         _SYNCHRON = ' '.
+
+  CALL FUNCTION 'Y_QMLIMS_QET1_CANCEL_GRAPHICS'.
+
+  MOVE OLD_OK_CODE TO E_OK_CODE.
+
+ENDFUNCTION.

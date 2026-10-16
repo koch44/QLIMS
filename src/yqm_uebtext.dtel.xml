@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YQM_UEBTEXT</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>YQM_UEBTEXT</DOMNAME>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>11</SCRLEN3>
+    <DDTEXT>Überschriftstext</DDTEXT>
+    <REPTEXT>Überschrift</REPTEXT>
+    <SCRTEXT_S>Text</SCRTEXT_S>
+    <SCRTEXT_M>Überschrift</SCRTEXT_M>
+    <SCRTEXT_L>Überschrift</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

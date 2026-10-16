@@ -1,0 +1,7 @@
+PROCESS BEFORE OUTPUT.
+  MODULE loop_at_screen_0300.
+  MODULE status_0300.
+
+PROCESS AFTER INPUT.
+  MODULE exit_command_0300 AT EXIT-COMMAND.
+  MODULE user_command_0300.

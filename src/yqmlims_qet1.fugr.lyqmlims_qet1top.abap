@@ -1,0 +1,129 @@
+FUNCTION-POOL YQMLIMS_QET1           MESSAGE-ID QETB.
+
+DATA  G_CLOSE_GRAPHICS like QM00-QKZ.
+TABLES:
+  QAPP, QASV.
+
+DATA:
+  KREUZ            TYPE C                   VALUE 'X',
+  C_MAX_PPUNKT     LIKE QAPP-PROBENR        VALUE '999999',
+  G_SPA_QRV        LIKE QAQEE-RUECKNRVER,
+* Schnittstellenparameter der OK-Codebausteine
+  G_ROW_NO         LIKE SY-CUROW,
+  G_COL_NO         LIKE SY-CUCOL,
+  G_AREA           LIKE SY-TNAME,
+  G_OK_CODE        LIKE T185-FCODE,
+  G_SCREEN_MANAGER LIKE SY-CPROG.
+
+*---------------------------------------------------------------------*
+*        Langtextverarbeitung                                         *
+*---------------------------------------------------------------------*
+* Konstante und Schlüssel zur Verarbeitung der Langtexte              *
+*---------------------------------------------------------------------*
+DATA:
+* Merkmal
+  BEGIN OF SCHLUESSEL_MERKMAL,
+    PRUEFLOS LIKE QALS-PRUEFLOS,
+    VORGLFNR LIKE QAMKR-VORGLFNR,
+    MERKNR   LIKE QAMKR-MERKNR,
+  END   OF SCHLUESSEL_MERKMAL,
+* Probe
+  BEGIN OF SCHLUESSEL_PROBE,
+    PRUEFLOS LIKE QALS-PRUEFLOS,
+    VORGLFNR LIKE QAMKR-VORGLFNR,
+    MERKNR   LIKE QAMKR-MERKNR,
+    PROBENR  LIKE QASPR-PROBENR,
+  END   OF SCHLUESSEL_PROBE,
+* Urwert
+  BEGIN OF SCHLUESSEL_ESTUE,
+    PRUEFLOS LIKE QALS-PRUEFLOS,
+    VORGLFNR LIKE QAMKR-VORGLFNR,
+    MERKNR   LIKE QAMKR-MERKNR,
+    PROBENR  LIKE QASPR-PROBENR,
+    STUECKNR LIKE QASER-STUECKNR,
+  END   OF SCHLUESSEL_ESTUE,
+* Klasse
+  BEGIN OF SCHLUESSEL_KLASSE,
+    PRUEFLOS LIKE QALS-PRUEFLOS,
+    VORGLFNR LIKE QAMKR-VORGLFNR,
+    MERKNR   LIKE QAMKR-MERKNR,
+    PROBENR  LIKE QASPR-PROBENR,
+    KLASSENR LIKE QAKLR-KLASSENR,
+  END   OF SCHLUESSEL_KLASSE,
+
+*-- Langtext zum Planmerkmal Keyaubau des Zugriffsschlüssels
+  BEGIN OF PLMK_TEXT,
+     MANDT      LIKE SY-MANDT,
+     PLNTY      LIKE QALS-PLNTY,
+     PLNNR      LIKE QALS-PLNNR,
+     PLNKN      LIKE QAPO-PPLNKN,
+     KZEINSTELL LIKE QAMKR-KZEINSTELL,
+     MERKNR     LIKE QAMKR-MERKNR,
+     ZAEHL      LIKE QAMKR-ZAEHL,
+   END OF PLMK_TEXT,
+
+*-- Langtext zur Prüfmethode Keyaufbau des Zugriffsschlüssels
+  BEGIN OF QMTT_TEXT,
+    MANDT    LIKE SY-MANDT,
+    WERKS    LIKE QAMKR-QMTB_WERKS,
+    PMTNR    LIKE QAMKR-PMETHODE,
+    VERSION  LIKE QAMKR-PMTVERSION,
+    SPRACHE  LIKE SY-LANGU,
+  END   OF QMTT_TEXT,
+
+*-- Langtext zum Stammerkmal Keyaufbau des Zugriffsschlüssels
+  BEGIN OF QPMK_TEXT,
+    MANDT     LIKE SY-MANDT,
+    WERKS     LIKE QAMKR-QPMK_WERKS,
+    MKMNR     LIKE QAMKR-VERWMERKM,
+    VERSION   LIKE QAMKR-MKVERSION,
+    SPRACHE   LIKE SY-LANGU,
+  END   OF QPMK_TEXT,
+
+* Langtext zum Prüflos
+  BEGIN OF SCHLUESSEL_LOS,
+    MANDANT  LIKE QALS-MANDANT,
+    PRUEFLOS LIKE QALS-PRUEFLOS,
+  END   OF SCHLUESSEL_LOS,
+*
+  KURZTEXT            LIKE TLINE-TDLINE,
+  LTEXTSCHLUESSEL     LIKE THEAD-TDNAME,
+*
+* Text-Objekte
+* Merkmal
+  TEXTMERKMAL         LIKE THEAD-TDOBJECT       VALUE 'QEEMERKMAL',
+* Probe
+  TEXTPROBE           LIKE THEAD-TDOBJECT       VALUE 'QEEPROBE  ',
+* Einzelstück
+  TEXTESTUECK         LIKE THEAD-TDOBJECT       VALUE 'QEEESTUECK',
+* Klasse
+  TEXTKLASSE          LIKE THEAD-TDOBJECT       VALUE 'QEEKLASSE ',
+
+* Planmerkmals-Langtext
+  TEXTPLANMERK        LIKE THEAD-TDOBJECT       VALUE 'QSS       ',
+
+* Stammerkmals-Langtext
+  TEXTSTAMMERK        LIKE THEAD-TDOBJECT       VALUE 'QPMERKMAL ',
+
+* Prüfmethoden-Kangtext
+  TEXTPRUEFMETH       LIKE THEAD-TDOBJECT       VALUE 'QPMETHODE',
+
+* Prüflos-Langtext
+  TEXTPRUEFLOS        LIKE THEAD-TDOBJECT       VALUE 'QPRUEFLOS ',
+
+* Text-Id zur Prüfbemerkung
+  PRUEFBEM_MERKMAL_ID LIKE TTXID-TDID         VALUE 'QMEP',
+  PRUEFBEM_PROBE_ID   LIKE TTXID-TDID         VALUE 'QPRP',
+  PRUEFBEM_ESTUECK_ID LIKE TTXID-TDID         VALUE 'QESP',
+  PRUEFBEM_KLASSE_ID  LIKE TTXID-TDID         VALUE 'QKLP',
+* Text-Id zum Planmerkmals-Langtext
+  PLAN_MERKMAL_ID     LIKE TTXID-TDID         VALUE 'QM  ',
+* Text-Id zum Stammerkmals-Langtext
+  STAMM_MERKMAL_ID    LIKE TTXID-TDID         VALUE 'QPMT',
+* Text-Id zum Stammerkmals-Langtext
+  PRUEF_METHODE_ID    LIKE TTXID-TDID         VALUE 'QMTT',
+* Text-Id zum Prüflos-Langtext
+  PRUEFLOS_ID         LIKE TTXID-TDID         VALUE 'QALS',
+
+  ACTION,
+  VKZ LIKE T185F-FCODE.

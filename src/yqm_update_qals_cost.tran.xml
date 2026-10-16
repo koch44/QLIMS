@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>YQM_UPDATE_QALS_COST</TCODE>
+    <PGMNA>YQMLIMS_UPDATE_QALS_COST</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>gA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>YQM_UPDATE_QALS_COST</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>YQM_UPDATE_QALS_COST</TCODE>
+    <TTEXT>Update des Flags für Kostenübernahme</TTEXT>
+   </TSTCT>
+   <HEAD>
+    <NAME>YQM_UPDATE_QALS_COST</NAME>
+    <TYPE>TR</TYPE>
+    <DISPLAY_NAME>YQM_UPDATE_QALS_COST</DISPLAY_NAME>
+    <STEXT>Reporttransaktion</STEXT>
+    <CTYPE>R</CTYPE>
+   </HEAD>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>YQM_CUST_SPEZ</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>YQM_CUST_SPEZ</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>YQM_CUST_SPEZ</TCODE>
+    <TTEXT>LIMS: Pflege Spezifikationstabelle</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>YQM_CUST_SPEZ</TCODE>
+    <PARAM>/*SM34 VCLDIR-VCLNAME=YQMLIMS_SPEZ;UPDATE=X;</PARAM>
+   </TSTCP>
+   <HEAD>
+    <NAME>YQM_CUST_SPEZ</NAME>
+    <TYPE>TR</TYPE>
+    <DISPLAY_NAME>YQM_CUST_SPEZ</DISPLAY_NAME>
+    <STEXT>Parametertransaktion</STEXT>
+    <CTYPE>P</CTYPE>
+   </HEAD>
+  </asx:values>
+ </asx:abap>
+</abapGit>

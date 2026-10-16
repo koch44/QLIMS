@@ -1,0 +1,5 @@
+PROCESS BEFORE OUTPUT.
+  MODULE html_control.
+
+PROCESS AFTER INPUT.
+  MODULE html_control.
